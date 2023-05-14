@@ -52,9 +52,9 @@ public class reverse
 
     static void Main(string[] args)
     {
-        Console.Write("Enter a number to reverse: ");
+        Console.Write("Enter a number: ");
         int number = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Reversed number: {0}", RevNum(number));
+        Console.WriteLine("Reversed number is: {0}", RevNum(number));
     }
 }
 ```
